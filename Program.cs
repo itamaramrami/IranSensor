@@ -11,6 +11,8 @@ namespace IranSensor
         static void Main(string[] args)
         {
             Console.WriteLine("hekko");
+            Game.Start();
+            
         }
     }
 }
