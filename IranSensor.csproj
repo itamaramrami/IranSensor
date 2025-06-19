@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agent.cs" />
+    <Compile Include="Agents\Agent.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="Interface\Interface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sensor.cs" />
+    <Compile Include="Sensors\Sensor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
