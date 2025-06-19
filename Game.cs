@@ -23,6 +23,7 @@ namespace IranSensor
             Console.WriteLine("In what location would you like to insert it? 0/1 ");
             int loc = int.Parse(Console.ReadLine());
             Guess[loc] = Gues;
+            
             while (n.Activate(Guess) != n.Rank)
             {
                 Console.WriteLine($"You managed to put a sensor {n.Activate(Guess)}/{n.Rank}");

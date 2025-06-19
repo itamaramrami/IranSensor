@@ -47,6 +47,7 @@ namespace IranSensor
                     correctCount++;
                 }
             }
+            
 
             return correctCount;
         }
